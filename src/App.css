@@ -177,3 +177,8 @@ h1 {
   margin-bottom: 10px;
   color: #b3b3b3;
 }
+
+.project-link a{
+  text-decoration: none;
+  color: gray;
+}
