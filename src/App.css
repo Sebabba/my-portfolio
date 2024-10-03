@@ -111,3 +111,69 @@ h1 {
 .skills-container .grid-skills .python:hover {
   background-color: #3776AB;
 }
+
+/* Projects */
+.projects-container {
+  padding: 2rem 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.project-card {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.project-card a{
+  text-decoration: none;
+  color: #DADADB;
+}
+
+.project-card .project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.project-card .folder-icon {
+  font-size: 35px;
+  color: #FFCC17;
+}
+
+.project-header .small-icons {
+  display: flex;
+  gap: 0 5px;
+}
+
+.project-card .small-icons a {
+  margin-right: 5px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.project-card .small-icons a:hover {
+  color: #FFCC17;
+}
+
+.project-card .project h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-card .project p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #b3b3b3;
+}

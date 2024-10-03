@@ -1,8 +1,4 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import avatar from '../images/avatar.jpg';
-import cover from '../images/busan.jpg';
 
 const Hero = () => {
     return (
@@ -10,7 +6,7 @@ const Hero = () => {
         <div className='d-flex hero-container flex-column align-items-center'>
             <div className=''>
                 <div className='d-flex justify-content-center'>
-                    <img src={avatar} className='profile-img' width={300} height={300} alt="Sebastiano's profile picture" />
+                    <img src={avatar} className='profile-img' width={300} height={300} alt="Sebastiano's profile" />
                 </div>
             </div>
             <div className='justify-content-center col-lg-9'>

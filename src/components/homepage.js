@@ -1,9 +1,8 @@
 import Hero from './hero';
 import About from './about';
 import Skills from './skills';
-import Container from 'react-bootstrap/Container';
+import Projects from './projects';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 const Homepage = () => {
     return(
@@ -16,6 +15,9 @@ const Homepage = () => {
             </Row>
             <Row className='justify-content-center'>
                 <Skills />
+            </Row>
+            <Row className='justify-content-center'>
+                <Projects />
             </Row>
         </>
     )
