@@ -49,3 +49,65 @@ h1 {
   filter: grayscale(0%);
   transform: scale(1.02);
 }
+
+.skills-container .grid-skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .skills-container .grid-skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.skill-card{
+  background-color: #DADADB;
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+  cursor: context-menu;
+}
+
+.skill-card p{
+  margin-bottom: 0;
+}
+
+.skills-container .grid-skills i {
+  font-size: 1.5rem;
+}
+
+.skills-container .grid-skills .html:hover {
+  background-color: #E34F26;
+}
+
+.skills-container .grid-skills .css:hover {
+  background-color: #264DE4;
+}
+
+.skills-container .grid-skills .js:hover {
+  background-color: #F7DF1E;
+}
+
+.skills-container .grid-skills .react:hover {
+  background-color: #61DAFB;
+}
+
+.skills-container .grid-skills .node:hover {
+  background-color: #339933;
+}
+
+.skills-container .grid-skills .java:hover {
+  background-color: #f89820;
+}
+
+.skills-container .grid-skills .python:hover {
+  background-color: #3776AB;
+}
