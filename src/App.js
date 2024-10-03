@@ -12,10 +12,10 @@ function App() {
     <>
     <Container className='App'>
       <Row className='justify-content-center align-items-center nav-container pb-md-3 pb-1 pt-md-3 pt-1'>
-        <Col xs={8} sm={10} className='logo'>
+        <Col className='logo'>
           <Link to="/" className="nav-item">Sebastiano's Portfolio</Link>
         </Col>
-        <Col xs={4} sm={2}>
+        <Col className='d-flex flex-row-reverse'>
           <Button href="#" download="Resume_PDF" target='_blank' rel="noferrer" className='cta-btn' variant="warning">Resume</Button>
         </Col>
       </Row>
