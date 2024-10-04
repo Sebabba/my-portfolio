@@ -2,6 +2,10 @@ h1 {
   line-height: 1.5;
 }
 
+.row {
+  margin-bottom: 2rem;
+}
+
 .nav-container {
   font-family: sans-serif;
   font-size: 16px;
@@ -181,4 +185,12 @@ h1 {
 .project-link a{
   text-decoration: none;
   color: gray;
+}
+
+/* Footer */
+.footer-container p{
+  padding: 0;
+  margin: 0;
+  font-size: .8rem;
+  color: #9b9c9d;
 }

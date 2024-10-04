@@ -2,6 +2,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import {Link} from 'react-router-dom';
+import CV_Definitivo from '../documents/CV_Definitivo.pdf';
 
 const NavBar = () => {
     return(
@@ -10,7 +11,7 @@ const NavBar = () => {
                 <Link to="/" className="nav-item">Sebastiano's Portfolio</Link>
             </Col>
             <Col className='d-flex flex-row-reverse'>
-                <Button href="#" download="Resume_PDF" target='_blank' rel="noferrer" className='cta-btn' variant="warning">Resume</Button>
+                <Button href={CV_Definitivo} download="Resume_PDF" target='_blank' rel="noferrer" className='cta-btn' variant="warning">Resume</Button>
             </Col>
         </Row>
     )

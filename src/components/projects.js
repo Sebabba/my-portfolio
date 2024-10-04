@@ -3,7 +3,7 @@ import { projectData } from './data.js';
 
 const Projects = () => {
     return (
-        <div className="col-lg-10 projects-container">
+        <div className="col-lg-10">
             <div className="col-12">
             <h2>Projects</h2> 
             </div>
