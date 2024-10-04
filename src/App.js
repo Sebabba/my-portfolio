@@ -3,6 +3,7 @@ import {Routes, Route, Link} from 'react-router-dom';
 import Homepage from './components/homepage';
 import EoloBlog from './components/eoloBlog';
 import WeatherApp from './components/weatherApp';
+import EoloSeo from './components/eoloSeo';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -24,6 +25,7 @@ function App() {
         <Route path='/' element={<Homepage />} />
         <Route path='/eolo-blog' element={<EoloBlog />} />
         <Route path='/weather-app' element={<WeatherApp />} />
+        <Route path='/eolo-seo' element={<EoloSeo />} />
       </Routes>
     </Container>
   </>
