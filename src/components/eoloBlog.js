@@ -13,6 +13,9 @@ const EoloBlog = () => {
                         <a href="https://www.eolo.it/home/blog.html"><i class="fa-solid fa-earth-americas"></i> Go to website</a>
                     </p>
                 </div>
+                <div className="project-image">
+                    <img src={blog_homepage} className="w-100" alt="Blog homepage"/>
+                </div>
                 <div>
                     <p>
                         The Blog section of the EOLO website serves as a powerful tool for the prominent Italian internet provider. It was
@@ -29,6 +32,30 @@ const EoloBlog = () => {
                     <div className="project-image">
                         <img src={blog_seo} className="w-100" alt="Blog SEO"/>
                     </div>
+                    <p>
+                        Moreover, the system offers the possibility of adding structured data. This enhancement is a powerful way to improve
+                        SEO as it provides search engines with explicit clues about the content on a web page. The use of structured data is a
+                        proven method to improve web page ranking and visibility in search engines, ultimately driving more organic traffic to
+                        the website.
+                    </p>
+                    <p>
+                        The articles created through this system are well-indexed due to the particular attention paid to SEO. The SEO strategies
+                        employed ensure that the content is easily discoverable by search engines, thus improving its visibility to potential
+                        customers searching for relevant keywords.
+                    </p>
+                    <div className="project-image">
+                        <img src={blog_detail} className="w-100" alt="Blog detail"/>
+                    </div>
+                    <p>
+                        Much of the content in this section is editorial, which allows the client to be autonomous in content management.
+                        They have the freedom to create, edit, or delete articles without the need to contact developers. This not only saves
+                        time but also allows for real-time content adjustments as per the evolving needs of the business or market trends.
+                    </p>
+                    <p>
+                        Additionally, clients have the flexibility to manage which articles to highlight. This feature is particularly beneficial
+                        for promoting specific content, such as new product releases or special offers. The system also allows for the promotion
+                        of highlighted articles even on the homepage, increasing their visibility and reach.
+                    </p>
                 </div>
             </div>
         </Row>
