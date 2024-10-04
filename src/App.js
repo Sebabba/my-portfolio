@@ -2,6 +2,7 @@ import './App.css';
 import {Routes, Route, Link} from 'react-router-dom';
 import Homepage from './components/homepage';
 import EoloBlog from './components/eoloBlog';
+import WeatherApp from './components/weatherApp';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/eolo-blog' element={<EoloBlog />} />
+        <Route path='/weather-app' element={<WeatherApp />} />
       </Routes>
     </Container>
   </>
