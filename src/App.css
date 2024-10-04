@@ -187,6 +187,10 @@ h1 {
   color: gray;
 }
 
+.project-image{
+  margin-bottom: 1rem;
+}
+
 /* Footer */
 .footer-container p{
   padding: 0;
