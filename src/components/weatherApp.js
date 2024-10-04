@@ -32,7 +32,7 @@ const WeatherApp = () => {
                         data returned from this API was then displayed to the user.
                     </p>
                     <div className="project-image">
-                        <img src={weather_app_image} className="w-100" alt="Weather app image"/>
+                        <img src={weather_app_image} className="w-100" alt="Weather app"/>
                     </div>
                     <p>
                         This project was an excellent opportunity for me to gain practical experience working with React and external

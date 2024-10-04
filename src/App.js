@@ -1,5 +1,5 @@
 import './App.css';
-import {Routes, Route, Link} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import Homepage from './components/homepage';
 import EoloBlog from './components/eoloBlog';
 import WeatherApp from './components/weatherApp';
@@ -8,9 +8,6 @@ import Oneshot from './components/oneshot';
 import SimpleFlanger from './components/simpleFlanger';
 import NavBar from './components/navBar';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
