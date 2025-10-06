@@ -47,15 +47,15 @@ export const projectDataFrontEnd = [
     id: 1,
     title: 'React Table Reservation',
     description:
-      "Blog section for EOLO. Created for SEO purposes to promote EOLO's products.",
+      "Final project for the Meta Front-End Developer Professional Certificate.",
     gitHubLink: '',
     detailLink: '/eolo-blog',
   },
   {
     id: 2,
-    title: 'React Simple Portfolio',
+    title: 'React Test Portfolio',
     description:
-      "Blog section for EOLO. Created for SEO purposes to promote EOLO's products.",
+      "Project made during the Meta Front-End Developer Professional Certificate.",
     gitHubLink: '',
     detailLink: '/eolo-blog',
   },
@@ -63,7 +63,7 @@ export const projectDataFrontEnd = [
     id: 3,
     title: 'This Portfolio',
     description:
-      "Blog section for EOLO. Created for SEO purposes to promote EOLO's products.",
+      "Personal portfolio made with React various functionalities.",
     gitHubLink: '',
     detailLink: '/eolo-blog',
   },
@@ -90,9 +90,9 @@ export const projectDataBackEnd = [
     id: 2,
     title: 'Mendrisio Website',
     description:
-      "Blog section for EOLO. Created for SEO purposes to promote EOLO's products.",
+      "Redesigned the client website and implemented Magnolia CMS for a more dynamic website.",
     gitHubLink: '',
-    detailLink: '/eolo-blog',
+    detailLink: '/mendrisio',
   },
 ]
 

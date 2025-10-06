@@ -6,6 +6,7 @@ import WeatherApp from './components/weatherApp';
 import EoloSeo from './components/eoloSeo';
 import Oneshot from './components/oneshot';
 import SimpleFlanger from './components/simpleFlanger';
+import Mendrisio from './components/mendrisio';
 import NavBar from './components/navBar';
 import Footer from './components/footer';
 import Container from 'react-bootstrap/Container';
@@ -22,6 +23,7 @@ function App() {
         <Route path='/eolo-seo' element={<EoloSeo />} />
         <Route path='/oneshot' element={<Oneshot />} />
         <Route path='/simple-flanger' element={<SimpleFlanger />} />
+        <Route path='/mendrisio' element={<Mendrisio />} />
       </Routes>
       <Footer />
     </Container>
