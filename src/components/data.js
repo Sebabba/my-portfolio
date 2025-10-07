@@ -53,11 +53,11 @@ export const projectDataFrontEnd = [
   },
   {
     id: 2,
-    title: 'React Test Portfolio',
+    title: 'React Project Portfolio',
     description:
       "Project made during the Meta Front-End Developer Professional Certificate.",
     gitHubLink: '',
-    detailLink: '/eolo-blog',
+    detailLink: '/courseraPortfolio',
   },
   {
     id: 3,

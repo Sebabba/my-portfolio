@@ -7,6 +7,7 @@ import EoloSeo from './components/eoloSeo';
 import Oneshot from './components/oneshot';
 import SimpleFlanger from './components/simpleFlanger';
 import Mendrisio from './components/mendrisio';
+import CourseraPortfolio from './components/courseraPortfolio'
 import NavBar from './components/navBar';
 import Footer from './components/footer';
 import Container from 'react-bootstrap/Container';
@@ -24,6 +25,7 @@ function App() {
         <Route path='/oneshot' element={<Oneshot />} />
         <Route path='/simple-flanger' element={<SimpleFlanger />} />
         <Route path='/mendrisio' element={<Mendrisio />} />
+        <Route path='/courseraPortfolio' element={<CourseraPortfolio />} />
       </Routes>
       <Footer />
     </Container>
