@@ -9,6 +9,7 @@ import SimpleFlanger from './components/simpleFlanger';
 import Mendrisio from './components/mendrisio';
 import CourseraPortfolio from './components/courseraPortfolio';
 import CourseraCapstone from './components/courseraCapstone';
+import PersonalPortfolio from './components/personalPortfolio';
 import NavBar from './components/navBar';
 import Footer from './components/footer';
 import Container from 'react-bootstrap/Container';
@@ -28,6 +29,7 @@ function App() {
         <Route path='/mendrisio' element={<Mendrisio />} />
         <Route path='/courseraPortfolio' element={<CourseraPortfolio />} />
         <Route path='/courseraCapstone' element={<CourseraCapstone />} />
+        <Route path='/personalPortfolio' element={<PersonalPortfolio />} />
       </Routes>
       <Footer />
     </Container>

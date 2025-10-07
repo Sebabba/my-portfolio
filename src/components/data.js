@@ -65,7 +65,7 @@ export const projectDataFrontEnd = [
     description:
       "Personal portfolio made with React various functionalities.",
     gitHubLink: '',
-    detailLink: '/eolo-blog',
+    detailLink: '/personalPortfolio',
   },
   {
     id: 4,
