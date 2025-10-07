@@ -45,11 +45,11 @@ export const projectData = [
 export const projectDataFrontEnd = [
   {
     id: 1,
-    title: 'React Table Reservation',
+    title: 'Front-End Developer Capstone',
     description:
       "Final project for the Meta Front-End Developer Professional Certificate.",
     gitHubLink: '',
-    detailLink: '/eolo-blog',
+    detailLink: '/courseraCapstone',
   },
   {
     id: 2,
