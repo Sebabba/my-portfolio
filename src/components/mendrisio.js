@@ -11,7 +11,7 @@ const Mendrisio = () => {
                 <div>
                     <h1>Mendrisio Website</h1>
                     <p className="project-link">
-                        <a href="https://mendrisio.ch/home"><i class="fa-solid fa-earth-americas"></i> Go to website</a>
+                        <a href="https://mendrisio.ch/home" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-earth-americas"></i> Go to website</a>
                     </p>
                 </div>
                 <div>

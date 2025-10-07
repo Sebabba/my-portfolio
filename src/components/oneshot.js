@@ -10,7 +10,7 @@ const Oneshot = () => {
                 <div>
                     <h1>One-shot Music Genre Classification</h1>
                     <p className="project-link">
-                        <a href="https://github.com/Sebabba/oneshot-music-genre-learning-thesis"><i className="fa-brands fa-github"></i> Go to GitHub</a>
+                        <a href="https://github.com/Sebabba/oneshot-music-genre-learning-thesis" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i> Go to GitHub</a>
                     </p>
                 </div>
                 <div className="project-image">

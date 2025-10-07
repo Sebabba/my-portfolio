@@ -9,7 +9,7 @@ const SimpleFlanger = () => {
                 <div>
                     <h1>Simple Flanger</h1>
                     <p className="project-link">
-                        <a href="https://www.lim.di.unimi.it/download/vst/simpleflanger/SimpleFlanger.zip"><i class="fa-solid fa-download"></i> Download the plugin</a>
+                        <a href="https://www.lim.di.unimi.it/download/vst/simpleflanger/SimpleFlanger.zip" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-download"></i> Download the plugin</a>
                     </p>
                 </div>
                 <div className="d-flex justify-content-between flex-row flex-wrap">

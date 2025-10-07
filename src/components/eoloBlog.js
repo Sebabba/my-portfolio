@@ -10,7 +10,7 @@ const EoloBlog = () => {
                 <div>
                     <h1>EOLO Blog</h1>
                     <p className="project-link">
-                        <a href="https://www.eolo.it/home/blog.html"><i class="fa-solid fa-earth-americas"></i> Go to website</a>
+                        <a href="https://www.eolo.it/home/blog.html" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-earth-americas"></i> Go to website</a>
                     </p>
                 </div>
                 <div className="project-image">

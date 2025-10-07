@@ -8,7 +8,7 @@ const EoloSeo = () => {
                 <div>
                     <h1>EOLO SEO</h1>
                     <p className="project-link">
-                        <a href="https://www.eolo.it/home/casa.html"><i class="fa-solid fa-earth-americas"></i> Go to website</a>
+                        <a href="https://www.eolo.it/home/casa.html" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-earth-americas"></i> Go to website</a>
                     </p>
                 </div>
                 <div>

@@ -8,7 +8,7 @@ const WeatherApp = () => {
                 <div>
                     <h1>Weather App</h1>
                     <p className="project-link">
-                        <a href="https://github.com/Sebabba/WeatherApp"><i className="fa-brands fa-github"></i> Go to GitHub</a>
+                        <a href="https://github.com/Sebabba/WeatherApp" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i> Go to GitHub</a>
                     </p>
                 </div>
                 <div>
