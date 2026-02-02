@@ -39,7 +39,6 @@ export const projectData = [
     gitHubLink: '',
     detailLink: 'simple-flanger',
   },
-  
 ];
 
 export const projectDataFrontEnd = [
@@ -47,7 +46,7 @@ export const projectDataFrontEnd = [
     id: 1,
     title: 'Front-End Developer Capstone',
     description:
-      "Final project for the Meta Front-End Developer Professional Certificate.",
+      'Final project for the Meta Front-End Developer Professional Certificate.',
     gitHubLink: '',
     detailLink: '/courseraCapstone',
   },
@@ -55,15 +54,14 @@ export const projectDataFrontEnd = [
     id: 2,
     title: 'React Project Portfolio',
     description:
-      "Project made during the Meta Front-End Developer Professional Certificate.",
+      'Project made during the Meta Front-End Developer Professional Certificate.',
     gitHubLink: '',
     detailLink: '/courseraPortfolio',
   },
   {
     id: 3,
     title: 'This Portfolio',
-    description:
-      "Personal portfolio made with React various functionalities.",
+    description: 'Personal portfolio made with React various functionalities.',
     gitHubLink: '',
     detailLink: '/personalPortfolio',
   },
@@ -75,7 +73,7 @@ export const projectDataFrontEnd = [
     gitHubLink: '',
     detailLink: '/weather-app',
   },
-]
+];
 
 export const projectDataBackEnd = [
   {
@@ -90,11 +88,11 @@ export const projectDataBackEnd = [
     id: 2,
     title: 'Mendrisio Website',
     description:
-      "Redesigned the client website and implemented Magnolia CMS for a more dynamic website.",
+      'Redesigned the client website and implemented Magnolia CMS for a more dynamic website.',
     gitHubLink: '',
     detailLink: '/mendrisio',
   },
-]
+];
 
 export const projectDataOther = [
   {
@@ -113,4 +111,4 @@ export const projectDataOther = [
     gitHubLink: '',
     detailLink: '/oneshot',
   },
-]
+];

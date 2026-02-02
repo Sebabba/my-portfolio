@@ -8,15 +8,15 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #1D1E20;
-  color: #DADADB;
+  background-color: #1d1e20;
+  color: #dadadb;
   margin: 0 auto;
   padding: 0 0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .social-icons {
@@ -25,11 +25,11 @@ code {
 }
 
 .social-icons a {
-  color: #9B9C9D;
+  color: #9b9c9d;
   font-size: 1.5rem;
   transition: all 0.5s ease-in-out;
 }
 
 .social-icons a:hover {
-  color: #DADADB;
+  color: #dadadb;
 }

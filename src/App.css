@@ -10,13 +10,13 @@ h1 {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #1D1E20;
-  color: #DADADB;
+  background-color: #1d1e20;
+  color: #dadadb;
 }
 
-.nav-container .nav-item{
+.nav-container .nav-item {
   text-decoration: none;
-  color: #DADADB;
+  color: #dadadb;
 }
 
 .nav-container .logo {
@@ -25,8 +25,8 @@ h1 {
 }
 
 .cta-btn {
-  background-color: #FFCC1A;
-  color: #1D1E20;
+  background-color: #ffcc1a;
+  color: #1d1e20;
   border-radius: 5px;
   font-size: 1rem;
   font-weight: 600;
@@ -44,12 +44,12 @@ h1 {
   overflow: hidden;
   height: 500px;
   object-fit: cover;
-  border: 2px solid #DADADB;
+  border: 2px solid #dadadb;
   filter: grayscale(30%);
   transition: all 0.5s ease-in-out;
 }
 
-.about-img:hover{
+.about-img:hover {
   filter: grayscale(0%);
   transform: scale(1.02);
 }
@@ -66,9 +66,9 @@ h1 {
   }
 }
 
-.skill-card{
-  background-color: #DADADB;
-  color: #1D1E20;
+.skill-card {
+  background-color: #dadadb;
+  color: #1d1e20;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,7 +80,7 @@ h1 {
   cursor: context-menu;
 }
 
-.skill-card p{
+.skill-card p {
   margin-bottom: 0;
 }
 
@@ -89,19 +89,19 @@ h1 {
 }
 
 .skills-container .grid-skills .html:hover {
-  background-color: #E34F26;
+  background-color: #e34f26;
 }
 
 .skills-container .grid-skills .css:hover {
-  background-color: #264DE4;
+  background-color: #264de4;
 }
 
 .skills-container .grid-skills .js:hover {
-  background-color: #F7DF1E;
+  background-color: #f7df1e;
 }
 
 .skills-container .grid-skills .react:hover {
-  background-color: #61DAFB;
+  background-color: #61dafb;
 }
 
 .skills-container .grid-skills .node:hover {
@@ -113,7 +113,7 @@ h1 {
 }
 
 .skills-container .grid-skills .python:hover {
-  background-color: #3776AB;
+  background-color: #3776ab;
 }
 
 .skills-container .grid-skills .figma:hover {
@@ -133,10 +133,10 @@ h1 {
   font-size: 18px;
   margin-bottom: 10px;
   margin-top: 10px;
-  color: #DADADB;
+  color: #dadadb;
 }
 
-.project-sub-menu:nth-of-type(n+2) {
+.project-sub-menu:nth-of-type(n + 2) {
   margin-top: 30px;
 }
 
@@ -158,9 +158,9 @@ h1 {
   border-radius: 5px;
 }
 
-.project-card a{
+.project-card a {
   text-decoration: none;
-  color: #DADADB;
+  color: #dadadb;
 }
 
 .project-card .project-header {
@@ -172,7 +172,7 @@ h1 {
 
 .project-card .folder-icon {
   font-size: 35px;
-  color: #FFCC17;
+  color: #ffcc17;
 }
 
 .project-header .small-icons {
@@ -183,11 +183,11 @@ h1 {
 .project-card .small-icons a {
   margin-right: 5px;
   cursor: pointer;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .project-card .small-icons a:hover {
-  color: #FFCC17;
+  color: #ffcc17;
 }
 
 .project-card .project h3 {
@@ -201,20 +201,20 @@ h1 {
   color: #b3b3b3;
 }
 
-.project-link a{
+.project-link a {
   text-decoration: none;
   color: gray;
 }
 
-.project-image{
+.project-image {
   margin-bottom: 1rem;
 }
 
 /* Footer */
-.footer-container p{
+.footer-container p {
   padding: 0;
   margin: 0;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #9b9c9d;
 }
 
@@ -224,7 +224,7 @@ h1 {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
 

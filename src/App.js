@@ -1,5 +1,5 @@
 import './App.css';
-import {Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Homepage from './components/homepage';
 import EoloBlog from './components/eoloBlog';
 import WeatherApp from './components/weatherApp';
@@ -17,23 +17,23 @@ import Container from 'react-bootstrap/Container';
 function App() {
   return (
     <>
-    <Container className='App'>
-      <NavBar />
-      <Routes>
-        <Route path='/' element={<Homepage />} />
-        <Route path='/eolo-blog' element={<EoloBlog />} />
-        <Route path='/weather-app' element={<WeatherApp />} />
-        <Route path='/eolo-seo' element={<EoloSeo />} />
-        <Route path='/oneshot' element={<Oneshot />} />
-        <Route path='/simple-flanger' element={<SimpleFlanger />} />
-        <Route path='/mendrisio' element={<Mendrisio />} />
-        <Route path='/courseraPortfolio' element={<CourseraPortfolio />} />
-        <Route path='/courseraCapstone' element={<CourseraCapstone />} />
-        <Route path='/personalPortfolio' element={<PersonalPortfolio />} />
-      </Routes>
-      <Footer />
-    </Container>
-  </>
+      <Container className="App">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/eolo-blog" element={<EoloBlog />} />
+          <Route path="/weather-app" element={<WeatherApp />} />
+          <Route path="/eolo-seo" element={<EoloSeo />} />
+          <Route path="/oneshot" element={<Oneshot />} />
+          <Route path="/simple-flanger" element={<SimpleFlanger />} />
+          <Route path="/mendrisio" element={<Mendrisio />} />
+          <Route path="/courseraPortfolio" element={<CourseraPortfolio />} />
+          <Route path="/courseraCapstone" element={<CourseraCapstone />} />
+          <Route path="/personalPortfolio" element={<PersonalPortfolio />} />
+        </Routes>
+        <Footer />
+      </Container>
+    </>
   );
 }
 
