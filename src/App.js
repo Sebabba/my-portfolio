@@ -1,6 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
+import Project from './pages/Project';
 import EoloBlog from './components/EoloBlog';
 import WeatherApp from './components/WeatherApp';
 import EoloSeo from './components/EoloSeo';
@@ -21,15 +22,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/eolo-blog" element={<EoloBlog />} />
-          <Route path="/weather-app" element={<WeatherApp />} />
-          <Route path="/eolo-seo" element={<EoloSeo />} />
-          <Route path="/oneshot" element={<Oneshot />} />
-          <Route path="/simple-flanger" element={<SimpleFlanger />} />
-          <Route path="/mendrisio" element={<Mendrisio />} />
-          <Route path="/courseraPortfolio" element={<CourseraPortfolio />} />
-          <Route path="/courseraCapstone" element={<CourseraCapstone />} />
-          <Route path="/personalPortfolio" element={<PersonalPortfolio />} />
+          <Route path="/:slug" element={<Project />} />
         </Routes>
         <Footer />
       </Container>

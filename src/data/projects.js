@@ -1,3 +1,6 @@
+import blog from './visible/blog';
+
+// Project data for Homepage list
 export const projectsListData = [
   {
     id: 1,
@@ -5,7 +8,7 @@ export const projectsListData = [
     description:
       "Blog section for EOLO. Created for SEO purposes to promote EOLO's products.",
     gitHubLink: '',
-    detailLink: '/eolo-blog',
+    detailLink: '/blog',
   },
   {
     id: 2,
@@ -40,3 +43,6 @@ export const projectsListData = [
     detailLink: 'simple-flanger',
   },
 ];
+
+// Project data for details page
+export const projects = [blog];
