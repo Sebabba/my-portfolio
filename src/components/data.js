@@ -41,6 +41,7 @@ export const projectData = [
   },
 ];
 
+// da cancellare
 export const projectDataFrontEnd = [
   {
     id: 1,

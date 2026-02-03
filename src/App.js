@@ -1,17 +1,17 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Homepage from './components/homepage';
-import EoloBlog from './components/eoloBlog';
-import WeatherApp from './components/weatherApp';
-import EoloSeo from './components/eoloSeo';
-import Oneshot from './components/oneshot';
-import SimpleFlanger from './components/simpleFlanger';
-import Mendrisio from './components/mendrisio';
-import CourseraPortfolio from './components/courseraPortfolio';
-import CourseraCapstone from './components/courseraCapstone';
-import PersonalPortfolio from './components/personalPortfolio';
-import NavBar from './components/navBar';
-import Footer from './components/footer';
+import Homepage from './pages/Homepage';
+import EoloBlog from './components/EoloBlog';
+import WeatherApp from './components/WeatherApp';
+import EoloSeo from './components/EoloSeo';
+import Oneshot from './components/Oneshot';
+import SimpleFlanger from './components/SimpleFlanger';
+import Mendrisio from './components/Mendrisio';
+import CourseraPortfolio from './components/CourseraPortfolio';
+import CourseraCapstone from './components/CourseraCapstone';
+import PersonalPortfolio from './components/PersonalPortfolio';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import Container from 'react-bootstrap/Container';
 
 function App() {

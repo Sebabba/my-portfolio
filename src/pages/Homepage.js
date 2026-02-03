@@ -1,8 +1,8 @@
-import Hero from './Hero';
-import About from './about';
-import Skills from './Skills';
-import Projects from './Projects';
-import Contact from './Contact';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Skills from '../components/Skills';
+import Projects from '../components/Projects';
+import Contact from '../components/Contact';
 import Row from 'react-bootstrap/Row';
 
 const Homepage = () => {

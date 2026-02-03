@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import resume from '../documents/sebastiano_silipo_resume.pdf';
-import CurrentTime from './currentTime';
+import CurrentTime from './CurrentTime';
 
 const NavBar = () => {
   return (
