@@ -16,7 +16,7 @@ const Footer = () => {
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/sebastiano-silipo-5abb96239"
+            href="https://www.linkedin.com/in/sebastiano-silipo"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
