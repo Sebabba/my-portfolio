@@ -1,6 +1,5 @@
 import { useParams } from 'react-router-dom';
 import { projects } from '../data/projects';
-import { Row } from 'react-bootstrap';
 import ContentBlock from '../components/ContentBlock';
 
 const Project = () => {
@@ -8,7 +7,7 @@ const Project = () => {
   const project = projects.find((p) => p.slug === slug);
 
   return (
-    <Row className="justify-content-center">
+    <div className="justify-content-center">
       <div className="d-flex flex-column col-lg-8">
         <div>
           <h1>{project.title}</h1>
@@ -49,7 +48,7 @@ const Project = () => {
           ))}
         </div>
       </div>
-    </Row>
+    </div>
   );
 };
 

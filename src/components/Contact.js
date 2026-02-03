@@ -1,5 +1,3 @@
-import Button from 'react-bootstrap/Button';
-
 const Contact = () => {
   return (
     <div className="d-flex flex-column align-items-center text-center">
@@ -9,13 +7,13 @@ const Contact = () => {
         hi! <br />
         I'm always open to connecting.
       </p>
-      <Button
+      <button
         href="mailto:sebastiano.silipo98@gmail.com"
         className="cta-btn"
         variant="warning"
       >
         Email me
-      </Button>
+      </button>
     </div>
   );
 };

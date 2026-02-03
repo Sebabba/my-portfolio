@@ -1,8 +1,6 @@
-import Row from 'react-bootstrap/Row';
-
 const Footer = () => {
   return (
-    <Row className="footer-container">
+    <div className="footer-container">
       <hr />
       <div className="d-flex flex-row justify-content-around align-items-center">
         <p>© {new Date().getFullYear()} Sebastiano's Portfolio</p>
@@ -25,7 +23,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </Row>
+    </div>
   );
 };
 

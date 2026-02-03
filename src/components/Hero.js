@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <div className="justify-content-center col-lg-9">
           <div className="text-center m-1">
-            <h1>Hi, I'm Sebastiano 👋</h1>
+            <h1 className="text-3xl">Hi, I'm Sebastiano 👋</h1>
             <p>
               I'm a software developer and engineer based in Italy. I am
               primarily specialized in front-end development, with experience in

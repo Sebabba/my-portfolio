@@ -18,7 +18,7 @@ const personalPortfolio = {
     {
       type: 'text',
       value:
-        'In particular, the sub-pages management was made using the React Router library, useful to create a stable and fast implementation of sub-pages. Also, the build and deploy was made thanks to Vercel, which is perfect for React and Next.js. The portfolio is also responsive and works great on mobile. This was possible using Bootstrap.',
+        '(to change) In particular, the sub-pages management was made using the React Router library, useful to create a stable and fast implementation of sub-pages. Also, the build and deploy was made thanks to Vercel, which is perfect for React and Next.js. The portfolio is also responsive and works great on mobile. This was possible using Bootstrap.',
     },
     {
       type: 'image',
