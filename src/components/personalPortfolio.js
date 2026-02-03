@@ -14,7 +14,7 @@ const PersonalPortfolio = () => {
               rel="noopener noreferrer"
               className="me-4"
             >
-              <i class="fa-solid fa-earth-americas"></i> Go to website
+              <i className="fa-solid fa-earth-americas"></i> Go to website
             </a>
             <a
               href="https://github.com/Sebabba/my-portfolio"

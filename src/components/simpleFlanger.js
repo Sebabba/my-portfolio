@@ -14,7 +14,7 @@ const SimpleFlanger = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-solid fa-download"></i> Download the plugin
+              <i className="fa-solid fa-download"></i> Download the plugin
             </a>
           </p>
         </div>

@@ -13,7 +13,7 @@ const EoloSeo = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-solid fa-earth-americas"></i> Go to website
+              <i className="fa-solid fa-earth-americas"></i> Go to website
             </a>
           </p>
         </div>
