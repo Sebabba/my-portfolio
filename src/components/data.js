@@ -35,7 +35,7 @@ export const projectData = [
     id: 5,
     title: 'Simple Flanger',
     description:
-      'PAudio plugin available standalone or VST created with JUCE, a C++ framework.',
+      'Audio plugin available standalone or VST created with JUCE, a C++ framework.',
     gitHubLink: '',
     detailLink: 'simple-flanger',
   },

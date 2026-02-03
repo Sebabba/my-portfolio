@@ -2,7 +2,7 @@ import blog_homepage from '../../images/blog_homepage.png';
 import blog_seo from '../../images/blog_seo.png';
 import blog_detail from '../../images/blog_detail.png';
 
-export default {
+const blog = {
   id: 1,
   slug: 'blog',
   title: 'Blog Section',
@@ -50,7 +50,9 @@ export default {
         'Additionally, clients have the flexibility to manage which articles to highlight. This feature is particularly beneficial for promoting specific content, such as new product releases or special offers. The system also allows for the promotion of highlighted articles even on the homepage, increasing their visibility and reach.',
     },
   ],
-  github: [],
-  demo: [],
-  website: [],
+  github: null,
+  demo: null,
+  website: null,
 };
+
+export default blog;

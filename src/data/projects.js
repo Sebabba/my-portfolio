@@ -1,4 +1,10 @@
 import blog from './visible/blog';
+import seo from './visible/seo';
+import oneshot from './visible/oneshot';
+import frontendCapstone from './visible/frontendCapstone';
+import reactPortfolio from './visible/reactPortfolio';
+import personalPortfolio from './visible/personalPortfolio';
+import cityWebsite from './visible/cityWebsite';
 
 // Project data for Homepage list
 export const projectsListData = [
@@ -45,4 +51,12 @@ export const projectsListData = [
 ];
 
 // Project data for details page
-export const projects = [blog];
+export const projects = [
+  frontendCapstone,
+  reactPortfolio,
+  blog,
+  seo,
+  oneshot,
+  personalPortfolio,
+  cityWebsite,
+];
