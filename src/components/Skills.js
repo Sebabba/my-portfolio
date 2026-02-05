@@ -23,7 +23,7 @@ const Skills = () => {
           return (
             <div
               key={skill.key}
-              className={`skill-card flex flex-col items-start gap-2 p-2 border rounded-lg shadow-sm ${skill.key}`}
+              className={`skill-card flex flex-col items-start gap-2 p-2 border ${skill.key}`}
               onClick={() => handleClick(skill.key)}
             >
               <div className="flex items-center justify-center w-full gap-2">

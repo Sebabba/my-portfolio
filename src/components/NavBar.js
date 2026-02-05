@@ -5,13 +5,13 @@ import CurrentTime from './CurrentTime';
 const NavBar = () => {
   return (
     <div className="flex justify-between items-center nav-container pb-1 md:pb-3 pt-1 md:pt-3">
-      <div className="">
-        <Link to="/" className="">
+      <div>
+        <Link to="/">
           Sebastiano's Portfolio
           <CurrentTime />
         </Link>
       </div>
-      <div className="">
+      <div>
         <button
           href={resume}
           download="Resume_PDF"
