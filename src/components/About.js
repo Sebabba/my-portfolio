@@ -3,13 +3,12 @@ import iceland from '../images/iceland.jpg';
 const About = () => {
   return (
     <>
-      <div className="col-lg-10">
-        <div className="col-12">
-          <h2>About Me</h2>
+      <div className="border border-[#2e2d25]">
+        <div className="p-4 border-b border-[#2e2d25]">
+          <h2 className="text-xl">About Me</h2>
         </div>
-
-        <div className="d-flex flex-row align-items-center flex-wrap">
-          <div className="col-12 col-md-7 pe-md-5">
+        <div className="flex flex-col sm:flex-row gap-x-6 items-center">
+          <div className="p-4">
             <p>
               As a software developer and engineer graduated in Music
               Information Science, I have always pursued diverse opportunities
@@ -33,8 +32,8 @@ const About = () => {
               particular, I always loved to share my interests with others.
             </p>
           </div>
-          <div className="col-10 col-md-5 d-none d-md-block">
-            <img src={iceland} className="about-img" alt="About me" />
+          <div className="p-4">
+            <img src={iceland} className="max-h-[2000px]" alt="About me" />
           </div>
         </div>
       </div>
