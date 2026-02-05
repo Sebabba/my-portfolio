@@ -19,7 +19,7 @@ const Homepage = () => {
       <div>
         <Projects />
       </div>
-      <div>
+      <div className="mb-6">
         <Contact />
       </div>
     </div>
