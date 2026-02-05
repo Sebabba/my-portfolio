@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex flex-row justify-between items-center py-2">
+    <div className="flex flex-row justify-between items-center py-2 my-3">
       <p>© {new Date().getFullYear()} Sebastiano's Portfolio</p>
       <div className="flex flex-row gap-x-3 text-md">
         <a

@@ -4,28 +4,38 @@ const ContentBlock = ({ block }) => {
       return <p>{block.value}</p>;
     case 'image':
       return (
-        <div className="project-image">
-          <img src={block.value} className="w-100" alt={block.value} />
+        <div className="flex justify-center">
+          <div className="border w-full max-w-[1200px] max-h-[600px] overflow-hidden">
+            <img
+              className="w-full h-auto object-contain block"
+              src={block.value}
+              alt={block.value}
+            />
+          </div>
         </div>
       );
     case 'orderedList':
       return (
-        <ol>
-          {block.value.map((element) => (
-            <li>{element}</li>
+        <ol className="list-decimal list-inside pl-4 space-y-1">
+          {block.value.map((element, idx) => (
+            <li key={idx} className="ml-2">
+              {element}
+            </li>
           ))}
         </ol>
       );
     case 'unorderedList':
       return (
-        <ul>
-          {block.value.map((element) => (
-            <li>{element}</li>
+        <ul className="list-disc list-inside pl-4 space-y-1">
+          {block.value.map((element, idx) => (
+            <li key={idx} className="ml-2">
+              {element}
+            </li>
           ))}
         </ul>
       );
     case 'subtitle':
-      return <h3>{block.value}</h3>;
+      return <h2>{block.value}</h2>;
     default:
       return null;
   }
