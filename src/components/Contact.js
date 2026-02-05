@@ -1,19 +1,21 @@
 const Contact = () => {
   return (
-    <div className="d-flex flex-column align-items-center text-center">
-      <h2>Get In Touch</h2>
-      <p>
-        Feel free to get in touch with me for work opportunities or just to say
-        hi! <br />
-        I'm always open to connecting.
-      </p>
-      <button
-        href="mailto:sebastiano.silipo98@gmail.com"
-        className="cta-btn"
-        variant="warning"
-      >
-        Email me
-      </button>
+    <div className="border border-t-0 border-[#2e2d25]">
+      <div className="p-4 border-b border-[#2e2d25]">
+        <h2 className="text-xl">Get In Touch</h2>
+      </div>
+      <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-4 p-4">
+        <p className="text-center sm:text-start">
+          Feel free to get in touch with me for work opportunities or just to
+          say hi! I'm always open to connecting.
+        </p>
+        <button
+          href="mailto:sebastiano.silipo98@gmail.com"
+          className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 bg-slate-900 text-slate-50 hover:bg-slate-900/90 h-8 px-4 py-1 whitespace-nowrap"
+        >
+          Email me
+        </button>
+      </div>
     </div>
   );
 };
