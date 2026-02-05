@@ -1,20 +1,13 @@
-import { useState } from 'react';
 import skills from '../data/skills';
 
 const Skills = () => {
-  const [activeTooltip, setActiveTooltip] = useState(null);
-
-  const handleClick = (key) => {
-    setActiveTooltip(activeTooltip === key ? null : key);
-  };
-
   return (
     <div className="border border-t-0 border-[#2e2d25]">
       <div className="p-4 border-b border-[#2e2d25]">
         <h2 className="text-xl">Skills</h2>
       </div>
 
-      <div className="skills-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4">
         {skills.map((skill) => {
           // proficiency: 0-5, può essere .5
           const fullStars = Math.floor(skill.proficiency);
@@ -24,7 +17,6 @@ const Skills = () => {
             <div
               key={skill.key}
               className={`skill-card flex flex-col items-start gap-2 p-2 border ${skill.key}`}
-              onClick={() => handleClick(skill.key)}
             >
               <div className="flex items-center justify-center w-full gap-2">
                 <i

@@ -3,26 +3,26 @@ import { projects } from '../data/projects';
 
 const Projects = () => {
   return (
-    <div className="col-lg-10">
-      <div className="col-12">
-        <h2>Projects</h2>
+    <div className="border border-t-0 border-[#2e2d25]">
+      <div className="p-4 border-b border-[#2e2d25]">
+        <h2 className="text-xl">Projects</h2>
       </div>
-      <div className="projects-grid">
+      <div className="grid grid cols-1 sm:grid-cols-2 gap-4 p-4">
         {projects &&
           projects.map((project) => (
-            <div className="project-card" key={project.id}>
+            <div key={project.id} className="flex flex-col border p-4">
               <Link to={`/${project.slug}`}>
-                <div className="project-header">
+                <div className="flex flex-row justify-between items-center text-2xl mb-1">
                   <i className="fa-regular fa-folder-open folder-icon"></i>
                   {project.github && (
-                    <div className="small-icons">
+                    <div>
                       <a href={project.github}>
                         <i className="fa-brands fa-github"></i>
                       </a>
                     </div>
                   )}
                 </div>
-                <h3>{project.title}</h3>
+                <h3 className="text-lg font-semibold">{project.title}</h3>
                 <p>{project.shortDescription}</p>
               </Link>
             </div>

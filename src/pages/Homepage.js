@@ -6,20 +6,20 @@ import Contact from '../components/Contact';
 
 const Homepage = () => {
   return (
-    <div className="">
+    <div>
       <div className="my-6">
         <Hero />
       </div>
       <div className="mt-5">
         <About />
       </div>
-      <div className="">
+      <div>
         <Skills />
       </div>
-      <div className="my-5">
+      <div>
         <Projects />
       </div>
-      <div className="my-5">
+      <div>
         <Contact />
       </div>
     </div>
