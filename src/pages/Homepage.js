@@ -7,7 +7,7 @@ import Contact from '../components/Contact';
 const Homepage = () => {
   return (
     <div className="">
-      <div className="my-5">
+      <div className="my-6">
         <Hero />
       </div>
       <div className="my-5">

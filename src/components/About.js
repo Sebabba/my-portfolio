@@ -33,7 +33,11 @@ const About = () => {
             </p>
           </div>
           <div className="p-4">
-            <img src={iceland} className="max-h-[2000px]" alt="About me" />
+            <img
+              src={iceland}
+              className="max-h-[2000px] border border-[#2e2d25]"
+              alt="About me"
+            />
           </div>
         </div>
       </div>
