@@ -10,10 +10,10 @@ const Homepage = () => {
       <div className="my-6">
         <Hero />
       </div>
-      <div className="my-5">
+      <div className="mt-5">
         <About />
       </div>
-      <div className="my-5">
+      <div className="">
         <Skills />
       </div>
       <div className="my-5">
