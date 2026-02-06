@@ -15,6 +15,10 @@ const frontendCapstone = {
   tech: ['JavaScript', 'React', 'HTML'],
   content: [
     {
+      type: 'subtitle',
+      value: 'Problem and Solution',
+    },
+    {
       type: 'text',
       value:
         'Project made as final test for the Meta Front-End Developer Professional Certificate. The project was about the creation and implementation of a table reservation for a restaurant, using Reactand the advanced features learned during the certification.',
@@ -37,10 +41,6 @@ const frontendCapstone = {
         'Create a Wireframe and Prototype on Figma, with a Style Guide',
         'Continue with the development of the new Feature',
       ],
-    },
-    {
-      type: 'subtitle',
-      value: 'Problem and Solution',
     },
     {
       type: 'Before starting with the design and development, I created a small paragraph explaining the problem I was facing and the solution, with the possible outcome and advantages for the owner of the restaurant.',

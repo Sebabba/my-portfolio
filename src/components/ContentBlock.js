@@ -35,7 +35,11 @@ const ContentBlock = ({ block }) => {
         </ul>
       );
     case 'subtitle':
-      return <h2>{block.value}</h2>;
+      return (
+        <h2 className="border-b border-[#2e2d25] dark:border-[#787878] text-2xl mt-4">
+          {block.value}
+        </h2>
+      );
     default:
       return null;
   }
