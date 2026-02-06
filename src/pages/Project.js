@@ -33,15 +33,17 @@ const Project = () => {
         </div>
       </div>
       {project.heroImage && (
-        <div>
-          <img
-            className="border"
-            src={project.heroImage}
-            alt={project.heroImage}
-          />
+        <div className="flex justify-center w-full">
+          <div className="border w-full max-w-[1200px] max-h-[600px] overflow-hidden">
+            <img
+              className="w-full h-auto object-contain block"
+              src={project.heroImage}
+              alt={project.heroImage}
+            />
+          </div>
         </div>
       )}
-      <div className="flex flex-col items-center gap-2 border border-[#2e2d25] dark:border-[#787878] p-4 md:px-8 mt-6">
+      <div className="flex flex-col items-center gap-2 border-t border-[#2e2d25] dark:border-[#787878] p-4 md:px-8 mt-6">
         {project.content.map((block, i) => (
           <div key={i} className="w-full">
             <ContentBlock block={block} />
