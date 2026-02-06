@@ -3,8 +3,8 @@ import iceland from '../images/iceland.jpg';
 const About = () => {
   return (
     <>
-      <div className="border border-[#2e2d25]">
-        <div className="p-4 border-b border-[#2e2d25]">
+      <div className="border border-[#2e2d25] dark:border-[#787878]">
+        <div className="p-4 border-b border-[#2e2d25] dark:border-[#787878]">
           <h2 className="text-xl">About Me</h2>
         </div>
         <div className="flex flex-col sm:flex-row gap-x-6 items-center">

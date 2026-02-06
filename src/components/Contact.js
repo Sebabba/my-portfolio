@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <div className="border border-t-0 border-[#2e2d25]">
-      <div className="p-4 border-b border-[#2e2d25]">
+    <div className="border border-t-0 border-[#2e2d25] dark:border-[#787878]">
+      <div className="p-4 border-b border-[#2e2d25] dark:border-[#787878]">
         <h2 className="text-xl">Get In Touch</h2>
       </div>
       <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-4 p-4">

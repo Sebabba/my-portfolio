@@ -41,7 +41,7 @@ const Project = () => {
           />
         </div>
       )}
-      <div className="flex flex-col items-center gap-2 border border-[#2e2d25] p-4 md:px-8 mt-6">
+      <div className="flex flex-col items-center gap-2 border border-[#2e2d25] dark:border-[#787878] p-4 md:px-8 mt-6">
         {project.content.map((block, i) => (
           <div key={i} className="w-full">
             <ContentBlock block={block} />
