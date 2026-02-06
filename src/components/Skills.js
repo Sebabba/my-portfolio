@@ -2,12 +2,12 @@ import skills from '../data/skills';
 
 const Skills = () => {
   return (
-    <div className="border border-t-0 border-[#2e2d25] dark:border-[#787878]">
-      <div className="p-4 border-b border-[#2e2d25] dark:border-[#787878]">
+    <div>
+      <div className="py-4 border-b border-[#2e2d25] dark:border-[#787878]">
         <h2 className="text-xl">Skills</h2>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 py-4">
         {skills.map((skill) => {
           // proficiency: 0-5, può essere .5
           const fullStars = Math.floor(skill.proficiency);
