@@ -12,15 +12,15 @@ const NavBar = () => {
         </Link>
       </div>
       <div>
-        <button
+        <a
           href={resume}
           download="Resume_PDF"
           target="_blank"
-          rel="noferrer"
-          className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 bg-slate-900 text-slate-50 hover:bg-slate-900/90 h-8 px-4 py-1"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 bg-slate-900 dark:bg-white text-slate-50 dark:text-slate-900 hover:bg-slate-900/90 dark:hover:bg-white/90 h-8 px-4 py-1"
         >
           Resume
-        </button>
+        </a>
       </div>
     </div>
   );
