@@ -1,10 +1,24 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import resume from '../documents/sebastiano_silipo_resume.pdf';
 import CurrentTime from './CurrentTime';
+import { MenuMobile } from './MenuMobile';
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
+
+  const navLinks = [
+    { name: 'About', id: 'about' },
+    { name: 'Skills', id: 'skills' },
+    { name: 'Projects', id: 'projects' },
+    { name: 'Contact', id: 'contact' },
+  ];
+
+  const handleNavClick = (id) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,24 +37,39 @@ const NavBar = () => {
           : ''
       }`}
     >
-      <div className="flex justify-between items-center pb-1 md:pb-3 pt-1 md:pt-3 px-4">
-        <div>
+      <div className="flex justify-between items-center pb-1 md:pb-3 pt-1 md:pt-3">
+        <div className="ps-4">
           <Link to="/">
             Sebastiano's Portfolio
             <CurrentTime />
           </Link>
         </div>
-        <div>
+        <div className="hidden md:flex items-center gap-x-6 pe-4">
+          {location.pathname === '/' &&
+            navLinks.map((link) => (
+              <button
+                key={link.id}
+                onClick={() => handleNavClick(link.id)}
+                className="text-sm hover:text-slate-600 dark:hover:text-slate-300"
+              >
+                <p className="text-lg">{link.name}</p>
+              </button>
+            ))}
           <a
             href={resume}
             download="Resume_PDF"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 bg-slate-900 dark:bg-white text-slate-50 dark:text-slate-900 hover:bg-slate-900/90 dark:hover:bg-white/90 h-8 px-4 py-1"
+            className="inline-block px-4 py-2 rounded-md text-sm font-medium bg-slate-900 dark:bg-white text-slate-50 dark:text-slate-900 hover:opacity-90 transition-opacity"
           >
             Resume
           </a>
         </div>
+        <MenuMobile
+          location={location}
+          navLinks={navLinks}
+          handleNavClick={handleNavClick}
+        />
       </div>
     </nav>
   );

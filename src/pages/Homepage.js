@@ -7,19 +7,19 @@ import Contact from '../components/Contact';
 const Homepage = () => {
   return (
     <div>
-      <div className="my-6">
+      <div id="hero" className="my-6">
         <Hero />
       </div>
-      <div className="mt-5">
+      <div id="about" className="mt-5">
         <About />
       </div>
-      <div>
+      <div id="skills">
         <Skills />
       </div>
-      <div>
+      <div id="projects">
         <Projects />
       </div>
-      <div className="mb-6">
+      <div id="contact" className="mb-6">
         <Contact />
       </div>
     </div>

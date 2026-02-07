@@ -11,7 +11,7 @@ const Contact = () => {
         </p>
         <a
           href="mailto:sebastiano.silipo98@gmail.com"
-          className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 bg-slate-900 dark:bg-white text-slate-50 dark:text-slate-900 hover:bg-slate-900/90 dark:hover:bg-white/90 h-8 px-4 py-1"
+          className="inline-block px-4 py-2 rounded text-sm font-medium bg-slate-900 dark:bg-white text-slate-50 dark:text-slate-900 hover:opacity-90 transition-opacity whitespace-nowrap flex-shrink-0"
         >
           Email me
         </a>
