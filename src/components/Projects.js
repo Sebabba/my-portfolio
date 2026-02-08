@@ -10,8 +10,11 @@ const Projects = () => {
       <div className="grid grid cols-1 sm:grid-cols-2 gap-4 py-4">
         {projects &&
           projects.map((project) => (
-            <div key={project.id} className="flex flex-col border p-4">
-              <Link to={`/${project.slug}`}>
+            <div
+              key={project.id}
+              className="border p-4 flex flex-col justify-between"
+            >
+              <div className="flex flex-col justify-start">
                 <div className="flex flex-row justify-between items-center text-2xl mb-1">
                   <i className="fa-regular fa-folder-open folder-icon"></i>
                   {project.github && (
@@ -24,7 +27,13 @@ const Projects = () => {
                 </div>
                 <h3 className="text-lg font-semibold">{project.title}</h3>
                 <p>{project.shortDescription}</p>
-              </Link>
+              </div>
+              <div className="self-end">
+                <Link to={`/${project.slug}`}>
+                  Read more{' '}
+                  <i class="fa-solid fa-arrow-right-to-bracket text-xs"></i>
+                </Link>
+              </div>
             </div>
           ))}
       </div>
