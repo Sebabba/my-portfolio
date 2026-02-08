@@ -60,7 +60,7 @@ const NavBar = () => {
             download="Resume_PDF"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-4 py-2 rounded-md text-sm font-medium bg-slate-900 dark:bg-white text-slate-50 dark:text-slate-900 hover:opacity-90 transition-opacity"
+            className="inline-block px-4 py-2 rounded-md text-sm font-medium bg-[#0f172a] dark:bg-[#e5e7eb] text-[#e5e7eb] dark:text-[#0f172a] hover:opacity-90 transition-opacity"
           >
             Resume
           </a>
