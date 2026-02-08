@@ -8,28 +8,29 @@ const About = () => {
           <h2 className="text-xl">About Me</h2>
         </div>
         <div className="flex flex-col sm:flex-row gap-8 items-center py-4">
-          <div>
+          <div className="flex flex-col gap-4">
             <p>
-              As a software developer and engineer graduated in Music
-              Information Science, I have always pursued diverse opportunities
-              to expand my skill set and experience.
+              I'm a <span className="italic font-bold">frontend developer</span>{' '}
+              with a background in Computer Science and a degree in Music
+              Information Science. Over the past few years, I've worked across
+              different environments, from international startups to enterprise
+              clients—always looking for opportunities to learn and grow.
             </p>
             <p>
-              My primary focus is in front-end development, with languages such
-              as HTML, CSS, JavaScript and React. I enjoying also working in
-              back-end development, with experience in database management with
-              NodeJS and MongoDB, AWS implementation for Serverless Functions
-              and storage, and various tasks involving Java.
+              Most of my work focuses on building responsive, accessible web
+              interfaces using{' '}
+              <span className="italic font-bold">
+                React, TypeScript, and Next.js
+              </span>
+              . I also enjoy backend development, working with Node.js, MongoDB,
+              and AWS to build complete solutions. My projects have ranged from
+              developing real-time dashboards from the ground up to improving
+              SEO and accessibility for major brands.
             </p>
             <p>
-              Throughout my journey, I contributed on a variety projects,
-              ranging from building web applications from scratch to
-              implementing SEO improvement for major clients.
-            </p>
-            <p>
-              Beyond my technical interests, I am an avid traveler and I love
-              exploring new cultures. With a deep passion about art and music in
-              particular, I always loved to share my interests with others.
+              Outside of code, I'm passionate about travel, art, and music. I
+              love exploring new cultures and sharing what I discover with
+              others.
             </p>
           </div>
           <div>
