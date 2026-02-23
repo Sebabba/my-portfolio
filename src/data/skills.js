@@ -3,19 +3,19 @@ const skills = [
     key: 'html',
     name: 'HTML',
     icon: 'html5',
-    proficiency: 4.5,
+    proficiency: 4,
   },
   {
     key: 'css',
     name: 'CSS',
     icon: 'css3-alt',
-    proficiency: 4.5,
+    proficiency: 4,
   },
   {
     key: 'js',
     name: 'JavaScript',
     icon: 'js-square',
-    proficiency: 4.5,
+    proficiency: 4,
   },
   {
     key: 'react',
@@ -39,7 +39,7 @@ const skills = [
     key: 'nextjs',
     name: 'Next.js',
     icon: 'nextjs',
-    proficiency: 3,
+    proficiency: 2,
   },
   {
     key: 'git',
