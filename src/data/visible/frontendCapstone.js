@@ -21,12 +21,12 @@ const frontendCapstone = {
     {
       type: 'text',
       value:
-        'Project made as final test for the Meta Front-End Developer Professional Certificate. The project was about the creation and implementation of a table reservation for a restaurant, using Reactand the advanced features learned during the certification.',
+        'This project was the final assessment for the Meta Front-End Developer Professional Certificate. The goal was to design and build an online table reservation feature for a restaurant, from the initial UX research all the way to the working implementation.',
     },
     {
       type: 'text',
       value:
-        'The primary purpose of the assessment was to check the knowledge and understanding of the key learning objectives of the course.',
+        "It was a good exercise in following a real product workflow: you don't just open your editor and start coding. You start by understanding the problem.",
     },
     {
       type: 'text',
@@ -43,7 +43,9 @@ const frontendCapstone = {
       ],
     },
     {
-      type: 'Before starting with the design and development, I created a small paragraph explaining the problem I was facing and the solution, with the possible outcome and advantages for the owner of the restaurant.',
+      type: 'text',
+      value:
+        'Before starting with the design and development, I created a small paragraph explaining the problem I was facing and the solution, with the possible outcome and advantages for the owner of the restaurant.',
     },
     {
       type: 'subtitle',
@@ -52,7 +54,7 @@ const frontendCapstone = {
     {
       type: 'text',
       value:
-        'A User Persona is a detailed, fictional profile representing a target user segment. It usually contains:',
+        'Before writing a single line of code, I defined who I was building for. A User Persona is basically a fictional but realistic profile of your target user, name, age, job, habits, frustrations, goals. It sounds like a formality, but it actually forces you to think about the person on the other side of the screen instead of just the features you want to build.',
     },
     {
       type: 'unorderedList',
@@ -74,12 +76,7 @@ const frontendCapstone = {
     {
       type: 'text',
       value:
-        'A Journey Map is a visual representation of a user’s interaction with a product or website over time. It shows the various stages of the user experience (like the awareness, considerations, action, retention), the actions the user does at each stages, the emotions during each interaction, and the pain points and opportunities about that improvements can be made.',
-    },
-    {
-      type: 'text',
-      value:
-        'The main purpose is to identify how the target user interact with the solution and identify possible problems, improve usability and design a pleasant experience.',
+        "Once I had a clear picture of the user, I mapped out their experience step by step, from the moment they land on the site to completing a reservation. A Journey Map highlights what the user is doing, thinking, and feeling at each stage, and more importantly, where things might go wrong. It's a useful way to spot friction points before they become real problems.",
     },
     {
       type: 'image',
@@ -92,7 +89,7 @@ const frontendCapstone = {
     {
       type: 'text',
       value:
-        'Before the development, the Wireframe and Prototype for the new feature was created using Figma. During the Meta Front-End Developer Professional Certificate, a entire module was about Figma and how to use to design the UX/UI for web development.',
+        'With the research done, I moved to Figma to design the wireframes and an interactive prototype, including a basic style guide for colors, typography, and components. Having a prototype to reference during development made the whole process smoother, fewer "wait, how should this look?" moments mid-build.',
     },
     {
       type: 'image',
@@ -105,21 +102,16 @@ const frontendCapstone = {
     {
       type: 'text',
       value:
-        'To implement the online reservation feature for the client, a new page with a form was created. The form let the user insert all the necessary information for the online reservation.',
+        'The actual implementation is a React page with a reservation form covering all the info a restaurant would need. Available time slots are fetched via an API call, simulating a real backend interaction. I also wrote unit tests with Jest throughout the build, not as an afterthought, but from the start — to catch issues early and keep the code reliable.',
     },
     {
       type: 'text',
       value:
-        'For the available time slots, an API call is used to simulate the request to an external server.',
+        'The project was then peer-reviewed to verify it worked correctly across different devices and browsers.',
     },
     {
       type: 'image',
       value: reservationHome,
-    },
-    {
-      type: 'text',
-      value:
-        'Also, Jest was used for Unit Testing from the start, to ensure code reliability and detect issues early in the build process. At the end, the project was evaluated with peer-review, to ensure the correct functioning across different devices and users.',
     },
     {
       type: 'image',

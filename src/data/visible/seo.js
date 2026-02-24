@@ -13,12 +13,12 @@ const seo = {
     {
       type: 'text',
       value:
-        "Search Engine Optimization, commonly known as SEO, is undoubtedly a vital aspect for any website. It is the determining factor behind a website's visibility and its ranking on Search Engine Results Pages (SERPs) of various search engines, including Google, Bing, and Yahoo. Achieving a high ranking in search results significantly increases the likelihood of users visiting the site. This, in turn, leads to greater brand exposure, increased organic traffic, and a higher probability of conversions, all of which are crucial for a website's success.",
+        "SEO isn't always the most visible part of frontend work, but it's one of those areas where the impact is very concrete, either your pages show up, or they don't.",
     },
     {
       type: 'text',
       value:
-        "In recent times, I have dedicated my efforts to improving the SEO for the website of an important client. My work has primarily involved front-end optimizations with the specific aim of enhancing product indexing. The objective behind this is to make the website's products more easily discoverable on search engines, thereby driving more potential customers to the site and increasing the chances of product purchases.",
+        "For this project, I worked on a broad SEO optimization for a major client's website, with a specific focus on product indexing. The goal was to make their catalog more discoverable on search engines and drive more organic traffic without relying on paid ads.",
     },
     {
       type: 'image',
@@ -32,18 +32,18 @@ const seo = {
     {
       type: 'orderedList',
       value: [
-        'On-Page Optimization: Optimized meta titles, meta descriptions, and heading tags to ensure they are concise, descriptive, and contain target keywords.',
-        'Technical SEO: Addressed technical issues such as site speed optimization, mobile responsiveness, and fixing broken links to improve user experience and search engine crawlability.',
-        "Structured Data Markup: Implemented structured data markup, such as Schema.org markup, to provide search engines with additional context about the website's content, enhancing its visibility in rich snippets and other SERP features.",
-        'Internal Linking: Optimized internal linking structure to ensure efficient navigation and distribute link equity to important pages across the site.',
+        'On-Page Optimization: Optimized meta titles, meta descriptions, and heading tags to make them relevant, concise, and aligned with target keywords.',
+        'Technical SEO: Addressed site speed, mobile responsiveness, and broken links to improve both user experience and search engine crawlability.',
+        'Structured Data Markup: Implemented Schema.org markup to give search engines additional context about the page content, improving visibility in rich snippets and other SERP features.',
+        'Internal Linking: Optimized the internal linking structure to ensure efficient navigation and distribute link equity across key pages.',
         "Off-Page SEO: Engaged in off-page SEO activities such as building high-quality backlinks from reputable websites to improve the website's authority and credibility.",
-        'Heading Optimization: Provided the client with the ability to modify headings throughout the website, ensuring flexibility in optimizing heading tags (H1, H2, etc.) for target keywords and improving the overall structure and readability of the content.',
+        'Heading Optimization: Gave the client the ability to manage headings directly from the CMS, allowing them to adapt on-page content without involving developers.',
       ],
     },
     {
       type: 'text',
       value:
-        "Collectively, these efforts have made a significant contribution to improving the SEO performance of EOLO. The results have been clearly visible in terms of increased organic traffic and better visibility in search engine results. This goes to show the impact and importance of a well-executed SEO strategy for a website's success.",
+        'The results were visible in terms of increased organic traffic and better rankings, which, at the end of the day, is the whole point.',
     },
   ],
   github: null,
